@@ -38,10 +38,10 @@
             //                    | GUI | LWR | ENT |   | SPC | RSE  | ALT |
 
             bindings = <
-&lt 3 TAB  &kp Q  &kp W  &kp E     &kp R    &kp T      &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &lt 4 F  &kp G      &kp H      &kp J  &kp K      &kp L    &kp SEMI  &lt 3 SINGLE_QUOTE
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V    &kp B      &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                         &kp LGUI  &mo 1    &kp RET    &kp SPACE  &mo 2  &kp RALT
+&lt 3 TAB  &kp Q  &kp W  &kp E     &kp R    &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp LCTRL  &kp A  &kp S  &kp D     &lt 4 F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI  &lt 3 SINGLE_QUOTE
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V    &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                         &kp LGUI  &mo 1    &lt 5 RET    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -54,7 +54,7 @@
 
             bindings = <
 &kp TAB    &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans     &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp BSPC
-&trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans     &trans     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
+&trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans     &kp F12    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
 &kp LSHFT  &trans     &trans     &trans     &trans     &trans     &trans     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &kp ESC
                                  &kp LGUI   &trans     &kp RET    &kp SPACE  &trans        &kp NUMBER_0
             >;
@@ -90,6 +90,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans           &trans  &trans
                         &trans  &trans  &trans    &trans          &trans          &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans       &trans         &trans    &trans  &trans    &trans   &trans  &trans  &trans
+&trans  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans    &trans  &kp HOME  &kp END  &trans  &trans  &trans
+&trans  &trans  &trans  &trans       &trans         &trans    &trans  &trans    &trans   &trans  &trans  &trans
+                        &trans       &trans         &trans    &trans  &trans    &trans
             >;
         };
     };
