@@ -38,10 +38,10 @@
             //                    | GUI | LWR | ENT |   | SPC | RSE  | ALT |
 
             bindings = <
-&lt 3 TAB  &kp Q  &kp W               &kp E           &kp R               &kp T        &kp Y      &kp U                &kp I                &kp O                     &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S               &kp D           &lt 4 F             &kp G        &kp H      &kp J                &kp K                &kp L                     &kp SEMI  &lt 3 SINGLE_QUOTE
-&kp LSHFT  &kp Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C  &mt LEFT_COMMAND V  &kp B        &kp N      &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL PERIOD  &kp FSLH  &kp RSHFT
-                                      &kp LGUI        &mo 1               &lt 5 RET    &kp SPACE  &mo 2                &kp RALT
+&lt 3 TAB  &kp Q  &kp W               &kp E           &kp R               &kp T         &kp Y            &kp U                &kp I                &kp O                     &kp P     &kp BSPC
+&kp LCTRL  &kp A  &kp S               &kp D           &lt 4 F             &kp G         &kp H            &kp J                &kp K                &kp L                     &kp SEMI  &lt 3 SINGLE_QUOTE
+&kp LSHFT  &kp Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C  &mt LEFT_COMMAND V  &kp B         &kp N            &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL PERIOD  &kp FSLH  &kp RSHFT
+                                      &kp LGUI        &mo 1               &kp RETURN    &mt LC(B) SPACE  &mo 2                &kp RALT
             >;
         };
 
@@ -90,15 +90,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans           &trans  &trans
                         &trans  &trans  &trans    &trans          &trans          &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans       &trans         &trans    &trans  &trans    &trans   &trans  &trans  &trans
-&trans  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans    &trans  &kp HOME  &kp END  &trans  &trans  &trans
-&trans  &trans  &trans  &trans       &trans         &trans    &trans  &trans    &trans   &trans  &trans  &trans
-                        &trans       &trans         &trans    &trans  &trans    &trans
             >;
         };
     };
